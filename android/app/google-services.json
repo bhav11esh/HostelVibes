@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "803679507681",
+    "firebase_url": "https://travelv2f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "travelv2f",
+    "storage_bucket": "travelv2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803679507681:android:078e9acff8c93417f853a0",
+        "android_client_info": {
+          "package_name": "com.TravelPanda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803679507681-s2hotgqoad11ef7ak0260pt7u0erlkp9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.TravelPanda",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "803679507681-887p3h563aof1puh7ghvss74urophbag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_pL_cdbcquaCqdNkpvuUveYF7AjvYuDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803679507681-887p3h563aof1puh7ghvss74urophbag.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "803679507681-f3qk902rfain49simu1alr9m166mqv2h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.TravelPanda"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803679507681:android:921c81212d1c2be2f853a0",
+        "android_client_info": {
+          "package_name": "com.flutterflow.homeU"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803679507681-887p3h563aof1puh7ghvss74urophbag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_pL_cdbcquaCqdNkpvuUveYF7AjvYuDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803679507681-887p3h563aof1puh7ghvss74urophbag.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "803679507681-f3qk902rfain49simu1alr9m166mqv2h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.TravelPanda"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

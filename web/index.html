@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="PandaTravel">
+
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "j8fvb34s47");
+    </script>
+
+    <style>
+      #loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #F6551A; /* Set the background color */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 9999;
+      }
+
+      #loading-spinner {
+        border: 8px solid #ffffff; /* Set the color of the spinner */
+        border-top: 8px solid transparent;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      #loading-text {
+        color: #ffffff; /* Set the text color */
+        margin-top: 10px;
+      }
+    </style>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // Show loading overlay
+        var loadingOverlay = document.createElement('div');
+        loadingOverlay.id = 'loading-overlay';
+
+        var loadingSpinner = document.createElement('div');
+        loadingSpinner.id = 'loading-spinner';
+
+        var loadingText = document.createElement('p');
+        loadingText.id = 'loading-text';
+        loadingText.textContent = 'Loading...';
+
+        loadingOverlay.appendChild(loadingSpinner);
+        loadingOverlay.appendChild(loadingText);
+
+        document.body.appendChild(loadingOverlay);
+
+        // Hide loading overlay after 20 seconds (adjust the timeout value as needed)
+        setTimeout(function () {
+          loadingOverlay.style.display = 'none';
+        }, 20000); // 20 seconds
+      });
+    </script>
+
+  <meta name="robots" content="noindex" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- Open Graph & SEO tags -->
+  <meta property="og:title" content="Discover  Accommodation and Connect with Fellow Travellers - Your Travel Companion | Panda Search" />
+  <meta property="og:description" content="Explore budget-friendly hostels and accommodations worldwide on Panda Search. Connect with like-minded travelers, share experiences, and plan memorable journeys together. Join our vibrant community today!" />
+  <meta property="og:image" content="/assets/assets/images/cute-panda-traveling-with-backpack-cartoon-vector-icon-illustration-animal-nature-icon-isolated_138676-4492_Background_Removed.png" /> 
+  <meta name="twitter:title" content="Discover  Accommodation and Connect with Fellow Travellers - Your Travel Companion | Panda Search" />
+  <meta name="twitter:description" content="Explore budget-friendly hostels and accommodations worldwide on Panda Search. Connect with like-minded travelers, share experiences, and plan memorable journeys together. Join our vibrant community today!" />
+  <meta name="twitter:image" content="/assets/assets/images/cute-panda-traveling-with-backpack-cartoon-vector-icon-illustration-animal-nature-icon-isolated_138676-4492_Background_Removed.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title> Discover  Accommodation and Connect with Fellow Travellers - Your Travel Companion | Panda Search </title>
+  <meta name="description" content="Explore budget-friendly hostels and accommodations worldwide on Panda Search. Connect with like-minded travelers, share experiences, and plan memorable journeys together. Join our vibrant community today!" />
+    
+
+  <!-- Status Bar color in Safari browser (iOS) and PWA -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6551a">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#1e2429">
+
+  <link rel="manifest" href="manifest.json">
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  
+  
+  
+  
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+	<script src="src/razorpay_checkout.js"></script>
+  <script>
+    window.addEventListener('load', function (ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        entrypointUrl: 'main.dart.js',
+        serviceWorker: {
+          serviceWorkerUrl: 'flutter_service_worker.js?v=',
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: async function(engineInitializer) {
+          // Initialize the Flutter engine
+          let appRunner = await engineInitializer.initializeEngine({});
+          // Run the app
+          await appRunner.runApp();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
