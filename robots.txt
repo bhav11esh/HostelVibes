@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://hostelvibes.com/sitemap.xml

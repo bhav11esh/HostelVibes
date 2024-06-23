@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "HostelVibes",
+    "description": "",
+    "home_page_url": "https://hostelvibes.com",
+    "feed_url": "https://hostelvibes.com/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "bhavesh"
+    },
+    "items": [
+        {
+            "id": "https://hostelvibes.com/monastry.html",
+            "url": "https://hostelvibes.com/monastry.html",
+            "title": "Monastry",
+            "summary": "This is an article about the Hemis Monastery in Ladakh. It discusses the monastery’s history, architecture, attractions, and festival. It also provides a travel guide for visiting the monastery. The Hemis Monastery is the largest and wealthiest monastery in Ladakh. It is a place of&hellip;",
+            "content_html": "<p>This is an article about the Hemis Monastery in Ladakh. It discusses the monastery’s history, architecture, attractions, and festival. It also provides a travel guide for visiting the monastery. The Hemis Monastery is the largest and wealthiest monastery in Ladakh. It is a place of worship, art, and history.</p>\n<p>The monastery was founded in the 17th century by Stagsang Raspa Nawang Gyatso. It was built on the site of an earlier monastery that dated back to the 11th century. The monastery is a masterpiece of Ladakhi architecture, blending Tibetan and Indian influences. The monastery complex consists of several buildings, such as the main temple, the assembly hall, the courtyard, the museum, and the visitors’ gallery.</p>\n<p>The Hemis Monastery is home to the Hemis Festival, one of the most spectacular and colorful events in Ladakh. It is celebrated every year in the month of June or July, on the 10th day of the Tibetan lunar calendar. The festival features masked dances and music performed by the monks of the monastery.</p>\n<p>Another attraction of the Hemis Monastery is the Hemis National Park, one of the largest and most diverse wildlife sanctuaries in India. The park is located around the monastery and covers an area of 4400 sq km. It is home to a variety of flora and fauna, including some endangered and rare species.</p>\n<p>If you are planning to visit Ladakh, you cannot afford to miss Hemis Monastery. Here are some tips for planning your trip:</p>\n<p>The best time to visit is from May to September.\nThe monastery is located about 45 km from Leh, the capital of Ladakh.\nYou can reach the monastery by taxi, bus, or trek.\nThere is no accommodation available at the monastery, but there are many hotels in the area.</p>\n",
+            "author": {
+                "name": "bhavesh"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-06-20T04:24:21+05:30",
+            "date_modified": "2024-06-20T04:24:21+05:30"
+        }
+    ]
+}
